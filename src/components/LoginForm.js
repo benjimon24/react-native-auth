@@ -44,7 +44,7 @@ class LoginForm extends Component {
     return this.state.loading ? (
       <Spinner size="small" />
     ) : (
-      <Button onPress={this.onButtonPress.bind(this)}> Login</Button>
+      <Button onPress={this.onButtonPress.bind(this)}> Log In</Button>
     );
   }
 
