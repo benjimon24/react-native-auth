@@ -29,14 +29,18 @@ class App extends Component {
     switch (this.state.loggedIn) {
       case true:
         return (
-          <Card>
+          <View style={styles.containerStyle}>
             <Button onPress={() => firebase.auth().signOut()}>Log Out</Button>;
-          </Card>
+          </View>
         );
       case false:
         return <LoginForm />;
       default:
-        return <Spinner size="large" />;
+        return (
+          <View style={styles.containerStyle}>
+            <Spinner size="large" />;
+          </View>
+        );
     }
   }
 
@@ -49,5 +53,12 @@ class App extends Component {
     );
   }
 }
+
+const styles = {
+  containerStyle: {
+    height: 40,
+    marginTop: 10
+  }
+};
 
 export default App;
