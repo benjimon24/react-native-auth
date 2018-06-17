@@ -30,7 +30,7 @@ class App extends Component {
       case true:
         return (
           <View style={styles.containerStyle}>
-            <Button onPress={() => firebase.auth().signOut()}>Log Out</Button>;
+            <Button onPress={() => firebase.auth().signOut()}>Log Out</Button>
           </View>
         );
       case false:
@@ -38,7 +38,7 @@ class App extends Component {
       default:
         return (
           <View style={styles.containerStyle}>
-            <Spinner size="large" />;
+            <Spinner size="large" />
           </View>
         );
     }
@@ -56,7 +56,7 @@ class App extends Component {
 
 const styles = {
   containerStyle: {
-    height: 40,
+    flexDirection: 'row',
     marginTop: 10
   }
 };
