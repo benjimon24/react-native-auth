@@ -1,6 +1,6 @@
 # react-native-auth
 
-A simple exercise utilizing firebase to handle authentication in React-Native
+An introductory exercise into utilizing firebase to handle authentication in React-Native, as part of Stephen Grider's "The Complete React Native and Redux Course".
 
 ## Technologies
 1. React Native
