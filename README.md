@@ -1,6 +1,6 @@
 # react-native-auth
 
-An introductory exercise into utilizing firebase to handle authentication in React-Native, as part of "The Complete React Native and Redux Course" by Stephen Grider (link below).
+An introductory exercise into utilizing firebase to handle authentication in React-Native, as part of "The Complete React Native and Redux Course" by Stephen Grider (link below). Renders a simple login form with functionality to login, create an account if none exists, or render an error if authentication failed.  
 
 ## Usage
 1. npm install
